@@ -1,0 +1,35 @@
+{
+  "name": "react-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for React/Redux projects",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "webpack && node server",
+    "dev": "nodemon --watch server & webpack --watch"
+  },
+  "repository": "https://github.com/emmanio/react-redux-boilerplate.git",
+  "author": "emma-nio <emmanioashley@gmail.com>",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.18.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "webpack": "^4.28.4",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
