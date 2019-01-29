@@ -5,9 +5,9 @@ import Word from './Word'
 
 const Words = ({ words }) => (
   <div>
-    {words.map(word => <Word key={word.id}{...word}}
+    {words.map(word => <Word key={word.id}{...word}
     />
-      )}
+    )}
   </div>
 )
 
